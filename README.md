@@ -15,6 +15,7 @@
   <li>
     <a href="#about-the-project">About The Project</a>
     <ul>
+      <li><a href="#instructions">Instructions</a></li>
       <li><a href="#made-with">Made With</a></li>
       <li><a href="#things-i-learned">Things I Learned</a></li>
       <li><a href="#areas-of-improvement">Areas of Improvement</a></li>
