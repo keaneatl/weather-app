@@ -10,10 +10,10 @@ const displayWeather = (nm, mn, mnD, temp, cld, fL, hum, mnT, mxT, tz, rn, cntry
     const mxTDOM = document.querySelector('.max-temp');
     const tzDOM = document.querySelector('.thumbnail');
 
-    if(!rn)tzDOM.src = '../dist/icons/rain.png'
-    else if(tz.split(':')[0] >= 18)tzDOM.src = '../dist/icons/night.png';
-    else if (cld > 70) tzDOM.src = '../dist/icons/cloudy.png';
-    else tzDOM.src = '../dist/icons/default.png';
+    if(!rn)tzDOM.src = './icons/rain.png'
+    else if(tz.split(':')[0] >= 18)tzDOM.src = './icons/night.png';
+    else if (cld > 70) tzDOM.src = './icons/cloudy.png';
+    else tzDOM.src = './icons/default.png';
 
     nmDOM.textContent = nm + ', ' + cntry;
     mnDOM.textContent = mn;
