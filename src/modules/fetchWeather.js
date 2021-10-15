@@ -2,7 +2,7 @@ import { displayWeather } from "./displayWeather";
 
 async function getWeather(city){
     try {
-        const weatherData = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=36304148de798623bfc32544c736df2a`);
+        const weatherData = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=36304148de798623bfc32544c736df2a`);
         const weatherJson =  await weatherData.json();
         const name = weatherJson.name;
         const main = weatherJson.weather[0].main;
